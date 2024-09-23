@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="272">
+    <Grid Margin="2,0,0,0">
+        <TextBlock HorizontalAlignment="Left" Margin="101,30,0,0" TextWrapping="Wrap" Text="Вариант 2" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,65,0,0" TextWrapping="Wrap" Text="Теслюк Алина ПР-22.101" VerticalAlignment="Top"/>
+        <Button x:Name="btnTask_1" Content="Task 1" HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" Height="38" Width="202" Click="Task_1_Click"/>
+        <Button x:Name="btnTask_2" Content="Task 2" HorizontalAlignment="Center" Margin="0,154,0,0" VerticalAlignment="Top" Height="38" Width="202" Click="Task_2_Click"/>
+        <Button x:Name="btnTask_3" Content="Task 3" HorizontalAlignment="Center" Margin="0,206,0,0" VerticalAlignment="Top" Height="38" Width="202" Click="Task_3_Click"/>
+        <Button x:Name="btnTask_4" Content="Task 4" HorizontalAlignment="Center" Margin="0,260,0,0" VerticalAlignment="Top" Height="38" Width="202" Click="Task_4_Click"/>
+        <Button x:Name="btnTask_5" Content="Task 5" HorizontalAlignment="Center" Margin="0,314,0,0" VerticalAlignment="Top" Height="38" Width="202" Click="Task_5_Click"/>
+
+    </Grid>
+</Window>
